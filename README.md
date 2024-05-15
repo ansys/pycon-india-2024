@@ -9,7 +9,7 @@ The Ansys Python Manager is a collaborative open-source project developed by Ans
 
 ### View the Presentation
 
-Visit [presentation.pdf](https://ansys.github.io/pycon-india-2024/presentation.pdf)) to see the full generated presentation.
+Visit [presentation.pdf](https://ansys.github.io/pycon-india-2024/presentation.pdf) to see the full generated presentation.
 
 [![presentation.pdf](assets/presentation_snap.png)](https://ansys.github.io/pycon-india-2024/presentation.pdf)
 
