@@ -58,5 +58,5 @@ This will output `presentation.pdf` in the `build` directory.
 
 ### Comments or Suggestions  
   
-If you have any comments or suggestions regarding this presentation, please feel free to open an issue.  
+If you have any comments or suggestions regarding this presentation, please feel free to open an [issue](https://github.com/ansys/pycon-india-2024/issues).  
   
