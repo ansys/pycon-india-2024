@@ -18,18 +18,17 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Install OS dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y latexmk texlive-luatex texlive-fonts-extra
-
       - name: Make PDF
         run: make
 
       - name: Upload PDF as an artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Presentation-PDF
           path: build/*.pdf
@@ -40,7 +39,6 @@ jobs:
         run: |
           mkdir build-pdf
           cp build/*.pdf build-pdf/
-
       - name: Deploy to gh-pages
         if: github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@v4
